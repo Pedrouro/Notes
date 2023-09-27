@@ -10,3 +10,19 @@ PI = 3,1415
 
 ENDERECO = "Rua 123"
 ```
+
+## Identação
+
+O Python não possui um caracter especifico para o fechamento de um bloco, para isso ele utiliza a identação do código para saber onde começa e termina um bloco de comando.
+
+```python
+def sacar(self, valor: float) -> None:
+
+    if self.saldo >= valor:
+
+        self.saldo -= valor
+
+    # fim do bloco do if
+
+# fim do bloco do método
+```
