@@ -17,7 +17,7 @@ else:
 
 ## elif
 
-O elif é a contração do else if no python, que utilizamos para testar uma condição apenas se a anterior for false
+O elif é a contração do else if no python, que utilizamos para testar uma condição apenas se a anterior for false.
 
 ## if ternário
 

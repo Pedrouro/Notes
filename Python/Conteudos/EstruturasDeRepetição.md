@@ -2,7 +2,7 @@
 
 São estruturas utilizadas para repetir um trecho de código um determinado número de vezes. Esse número pode ser conhecido préviamente ou determinado através de uma expressão lógica.
 
-## for
+## For
 
 O comando for é usado para percorrer um objeto iterável. Faz sentido usar for quando sabemos o número exato de vezes que nosso bloco de código deve ser executado, ou quando queremos percorrer um objeto iterável.
 
@@ -17,11 +17,11 @@ for letra in texto:
 
 Explicação: O código separa as vogais de uma palavra e passa elas para a sua forma maiúscula. 
 
-## Funçao **range**
+## Função **range**
 
 Range é uma função buit-in do Python, ela é usada para produzir uma sequência de números inteiros a partir de um ínicio(intrusivo) para um fim (exclusivo). Ela é comumente utilizade junto de laços do repetição FOR.
 
-Ela recebe 3 argumentos: stop (obrigatório), start opcional e step(opcional).
+Ela recebe 3 argumentos: stop (obrigatório), start (opcional) e step(opcional).
 
 ```python
 for numero in range(0, 11):
